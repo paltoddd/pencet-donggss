@@ -25,18 +25,11 @@
   </div>
 
   <!-- Audio untuk Lagu -->
-    <!-- Audio yang dimute dan diputar otomatis -->
-    <audio id="background-music" autoplay loop muted>
+    <!-- Audio yang diputar otomatis -->
+    <audio id="background-music" autoplay loop>
         <source src="assets/wave.mp3" type="audio/mpeg">
         Browser kamu tidak mendukung pemutaran audio.
     </audio>
-    <script>
-        // Menghilangkan mute setelah beberapa detik
-        setTimeout(function() {
-            var audio = document.getElementById('background-music');
-            audio.muted = false; // Unmute setelah 2 detik
-        }, 2000); // Ubah angka ini untuk mengatur waktu mute
-    </script>
   <!-- Gallery Section -->
   <section class="gallery">
     <h1>❤️ Gallery Safina ❤️</h1>
